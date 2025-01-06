@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<!-- Navbar items -->
+<body class="h-screen w-screen bg-zinc-950 px-8">
+    <nav class="py-4 bg-zinc-950 mx-auto mt-4">
+        <div class="flex justify-center space-x-12 text-white">
+            <div class="flex items-center space-x-2 p-2 relative group">
+                <a href="index.html" class="flex items-center space-x-2">
+                    <i class="fas fa-home text-xl cursor-pointer"></i>
+                    <span>Home</span>
+                </a>
+                <span
+                    class="absolute bottom-0 left-0 h-1 w-0 bg-zinc-500 transition-all duration-300 group-hover:w-full"></span>
+            </div>
+            <div class="flex items-center space-x-2 p-2 relative group">
+                <a href="projects.html" class="flex items-center space-x-2">
+                    <i class="fas fa-folder text-xl cursor-pointer"></i>
+                    <span>Projects</span>
+                </a>
+                <span
+                    class="absolute bottom-0 left-0 h-1 w-0 bg-zinc-500 transition-all duration-300 group-hover:w-full"></span>
+            </div>
+            <div class="flex items-center space-x-2 p-2 relative group">
+                <a href="experience.html" class="flex items-center space-x-2">
+                    <i class="fas fa-briefcase text-xl cursor-pointer"></i>
+                    <span>Experience</span>
+                </a>
+                <span
+                    class="absolute bottom-0 left-0 h-1 w-0 bg-zinc-500 transition-all duration-300 group-hover:w-full"></span>
+            </div>
+            <div class="flex items-center space-x-2 p-2 relative group">
+                <a href="tools.html" class="flex items-center space-x-2">
+                    <i class="fas fa-tools text-xl cursor-pointer"></i>
+                    <span>Tools</span>
+                </a>
+                <span
+                    class="absolute bottom-0 left-0 h-1 w-0 bg-zinc-500 transition-all duration-300 group-hover:w-full"></span>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Container for main content -->
+    <div class="flex flex-col items-center justify-center mt-24">
+        <div class="flex items-start space-x-20">
+            <!-- White box -->
+            <div class="bg-white rounded-3xl w-[344px] h-[640px] relative">
+                <div class="w-[250px] h-[250px] bg-gray-300 rounded-xl mx-auto mt-10">
+                    <img src="/images/BCyRvPn2.png" alt="Placement Photo" class="object-cover w-full h-full">
+                </div>
+                <p class="text-zinc-800 text-center text-3xl font-bold mt-4">Torjus Tveten</p>
+                <p class="text-zinc-800 pl-10 text-1xl mt-4 font-bold">Front end developer fra Sandefjord</p>
+                <p class="text-zinc-800 pl-10 text-1xl mt-4 font-bold">29 år gammel</p>
+                <p class="text-zinc-800 pl-10 text-1xl mt-4 font-bold">Liker å game</p>
+                <p class="text-zinc-800 pl-10 text-1xl mt-4 font-bold">Dårlig til å skrive om meg selv</p>
+            </div>
+
+            <!-- Text Section -->
+            <div class="flex flex-col justify-between text-white">
+                <h1 class="text-6xl font-bold mb-4 uppercase">
+                    Frontend<br><span class="text-zinc-800">Developer</span>
+                </h1>
+                <p class="text-gray-300 text-lg w-[344px] mb-44">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum neque nihil pariatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum neque nihil pariatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum neque nihil pariatur.
+                </p>
+                <div class="flex space-x-8">
+                    <a href="https://www.figma.com/files/team/1445704353212192221/recents-and-sharing?fuid=1445704349528627533"
+                        class="bg-slate-800 rounded-lg w-[210px] h-[150px] flex items-center justify-center transition-transform transform hover:bg-slate-700 hover:scale-105">
+                        <p class="text-white font-bold text-xl uppercase">Figma</p>
+                    </a>
+                    <a href="https://github.com/Torjus24SFJ"
+                        class="bg-slate-800 rounded-lg w-[300px] h-[150px] flex items-center justify-center  hover:bg-slate-600 ">
+                        <p class="text-white font-bold text-xl uppercase">Github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Header 2 -->
+        <div class="text-white ml-36 pt-20 uppercase">
+            <h2 class="text-6xl font-bold mb-4">
+                Recent<br><span class="text-zinc-800">Projects</span>
+            </h2>
+        </div>
+        
+        <!-- Vertical Boxes -->
+            <div class="flex flex-col items-start mt-12">
+                <div class="bg-zinc-950 rounded-lg w-[664px] h-[134px] flex items-center p-4 hover:bg-zinc-900">
+                    <div class="w-[100px] h-[100px] bg-gray-300 rounded-lg">
+                        <a href="https://torjus24sfj.github.io/Js-brewing-game/">
+                            <img src="/images/potion-game.png" alt="Placeholder" class="object-cover w-full h-full">
+                        </a>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-white text-xl font-bold">Potion brewing game</p>
+                        <p class="text-gray-400 text-sm">Brief description of the project. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+    
+                <div class="bg-zinc-950 rounded-lg w-[664px] h-[134px] flex items-center p-4 hover:bg-zinc-900">
+                    <div class="w-[100px] h-[100px] bg-gray-300 rounded-lg">
+                        <a href="https://www.figma.com/proto/FmBQl34GGocU7fvuphWNC7/youtube-prototype?node-id=1-3&p=f&t=1oxihFJo8LswdwGq-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1">
+                            <img src="/images/youtube-design.png" alt="Placeholder" class="object-cover w-full h-full">
+                        </a>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-white text-xl font-bold">YouTube figma design</p>
+                        <p class="text-gray-400 text-sm">Brief description of the project. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+    
+                <div class="bg-zinc-950 rounded-lg w-[664px] h-[134px] flex items-center p-4 hover:bg-zinc-900">
+                    <div class="w-[100px] h-[100px] bg-gray-300 rounded-lg">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder" class="object-cover w-full h-full">
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-white text-xl font-bold">Project Title 3</p>
+                        <p class="text-gray-400 text-sm">Brief description of the project. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>
